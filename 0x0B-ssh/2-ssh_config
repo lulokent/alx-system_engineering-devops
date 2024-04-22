@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This is a ssh client system-wide configuration file.
+
+Host *
+	PasswordAuthenication no
+	IdentityFile ~/.ssh/school
+	SendEnv LANG LG_*
+	HashKnownHosts yes
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials no
