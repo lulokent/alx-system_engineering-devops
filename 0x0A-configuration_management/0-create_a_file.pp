@@ -1,10 +1,7 @@
 # Creates a file in /tmp using Puppet
 
-$doc_path = '/tmp/school'
-
-file { $doc_path:
-	ensure  => 'file',
-	path    => &doc_path,
+file { '/tmp/school':
+	path    => '/tmp/school',
 	mode    => '0744',
 	owner   => 'www-data',
 	group   => 'www-data',
