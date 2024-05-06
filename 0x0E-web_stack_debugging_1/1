@@ -1,3 +1,4 @@
-rm: cannot remove '/etc/nginx/sites-enabled/default': No such file or directory
-./0-nginx_likes_port_80: line 5: In: command not found
+sed: can't read /etc/nginx/sites-enabled/default: No such file or directory
+sed: can't read /etc/nginx/sites-enabled/deflaut: No such file or directory
+sed: can't read /etc/nginx/sites-avaiable/default: No such file or directory
 nginx: unrecognized service
