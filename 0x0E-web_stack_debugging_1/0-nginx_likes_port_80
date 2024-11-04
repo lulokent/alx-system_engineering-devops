@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Debugging nginx port 80
-
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default ; sed -i 's/ ipv6only=on//g' /etc/nginx/sites-enabled/deflaut
-sed -i 's/ ipv6only=on//g' /etc/nginx/sites-avaiable/default
-service nginx restart
